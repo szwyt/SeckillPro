@@ -1,7 +1,0 @@
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\bin\Debug\netcoreapp1.1\SeckillPro.Com.deps.json
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\bin\Debug\netcoreapp1.1\SeckillPro.Com.dll
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\obj\Debug\netcoreapp1.1\SeckillPro.Com.AssemblyInfo.cs
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\bin\Debug\netcoreapp1.1\SeckillPro.Com.pdb
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\obj\Debug\netcoreapp1.1\SeckillPro.Com.dll
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\obj\Debug\netcoreapp1.1\SeckillPro.Com.pdb
-D:\F\学习\vs2017\netcore\秒杀\SeckillPro\SeckillPro.Com\obj\Debug\netcoreapp1.1\SeckillPro.Com.csprojResolveAssemblyReference.cache
