@@ -1,5 +1,6 @@
 ﻿using SeckillPro.Com.Model;
 using SeckillPro.Com.Tool;
+using System;
 using System.Threading.Tasks;
 
 namespace SeckillPro.Com.Common
@@ -39,15 +40,14 @@ namespace SeckillPro.Com.Common
         public async Task<long> GetKeyId(EnumHelper.EmDataKey dataKey)
         {
             string key = dataKey.ToString();
-            //long keyId = 0;
-            //string result = await _redis.Get(key);
-            //if (!string.IsNullOrWhiteSpace(result))
-            //{
-            //    keyId = Convert.ToInt64(result);
-            //}
-            //keyId++;
-            //return await _redis.Set(key, keyId) ? keyId : 0;
-            return await _redis.GetDb().StringIncrementAsync(key, 1);
+            long keyId = 0;
+            string result = await _redis.Get(key);
+            if (!string.IsNullOrWhiteSpace(result))
+            {
+                keyId = Convert.ToInt64(result);
+            }
+            keyId = await _redis.GetDb().StringIncrementAsync(key, 1);
+            return keyId;
         }
     }
 }
