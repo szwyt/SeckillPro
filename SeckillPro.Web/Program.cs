@@ -14,7 +14,6 @@ namespace SeckillPro.Web
             var host = builder.UseContentRoot(Directory.GetCurrentDirectory())
                   .UseIISIntegration()
                   .UseStartup<Startup>()
-                  .UseApplicationInsights()
                   .Build();
             host.Run();
         }
